@@ -2,4 +2,33 @@
 
 /* 回答はここに書いてね */
 
+.clearfix:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.bigbox{
+  width: 900px;
+  background-color: #eff3f4;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.textbox{
+  font-size: 18px;
+  line-height: 22px;
+  word-break: break-all;
+}
+
+.image1{
+  float: left;
+  margin: 0 20px 10px 0;
+}
+
+.image2{
+  float: right;
+  margin: 0 0 10px 20px;
+}
+
 /* 回答はここに書いてね */

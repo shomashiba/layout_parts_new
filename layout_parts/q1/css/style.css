@@ -2,4 +2,38 @@
 
 /* 回答はここに書いてね */
 
+.clearfix:after{
+  content: "";
+  display: block;
+  clear:both;
+}
+
+.bigbox{
+  width: 900px;
+  background-color: #eff3f4;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.bluebox{
+  margin-left: 20px;
+  padding: 20px;
+  background-color: #3274ae;
+  float:left;
+}
+
+.textbox{
+  width: 230px;
+  padding: 20px;
+  border: 10px solid #022336;
+  box-sizing: border-box;
+  background-color: #eaf4ff;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.bigbox .bluebox:first-child{
+  margin-left: 0;
+}
+
 /* 回答はここに書いてね */

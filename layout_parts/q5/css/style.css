@@ -2,4 +2,128 @@
 
 /* 回答はここに書いてね */
 
+.big_box{
+  width: 500px;
+  height: 500px;
+  background-color: #ECF1F2;
+  position: relative;
+  margin: 0 auto;
+}
+
+.one{
+  width: 100px;
+  background-color: #ffefd3;
+  text-align: center;
+  padding: 40px 0;
+  font-size: 20px;
+  position: absolute;
+  left: 200px;
+  top: 40px;
+  z-index: 1;
+}
+
+.two{
+  width: 100px;
+  background-color: #7084de;
+  text-align: center;
+  padding: 40px 0;
+  font-size: 20px;
+  position: absolute;
+  left: 280px;
+  top: 120px;
+  z-index: 2;
+}
+
+.thr{
+  width: 100px;
+  background-color: #d0ecea;
+  text-align: center;
+  padding: 40px 0;
+  font-size: 20px;
+  position: absolute;
+  left: 360px;
+  top: 200px;
+  z-index: 3;
+}
+
+.fou{
+  width: 100px;
+  background-color: #8b7a5e;
+  text-align: center;
+  padding: 40px 0;
+  font-size: 20px;
+  position: absolute;
+  left: 280px;
+  top: 280px;
+  z-index: 4;
+}
+
+.fiv{
+  width: 100px;
+  background-color: #9fd6d2;
+  text-align: center;
+  padding: 40px 0;
+  font-size: 20px;
+  position: absolute;
+  left: 200px;
+  top: 360px;
+  z-index: 5;
+}
+
+.six{
+  width: 100px;
+  background-color: #fffee4;
+  text-align: center;
+  padding: 40px 0;
+  font-size: 20px;
+  position: absolute;
+  left: 120px;
+  top: 280px;
+  z-index: 6;
+}
+
+.sev{
+  width: 100px;
+  background-color: #deae70;
+  text-align: center;
+  padding: 40px 0;
+  font-size: 20px;
+  position: absolute;
+  left: 40px;
+  top: 200px;
+  z-index: 7;
+}
+
+.eig{
+  width: 100px;
+  background-color: #de70cf;
+  text-align: center;
+  padding: 40px 0;
+  font-size: 20px;
+  position: absolute;
+  left: 120px;
+  top: 120px;
+  z-index: 8;
+}
+
+.eig:after{
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: #ffefd3;
+  position: absolute;
+  left: 80px;
+  top: 0;
+}
+
+.nin{
+  width: 100px;
+  background-color: #2b69a3;
+  text-align: center;
+  padding: 40px 0;
+  font-size: 20px;
+  position: fixed;
+  left: 10px;
+  top: 10px;
+}
 /* 回答はここに書いてね */

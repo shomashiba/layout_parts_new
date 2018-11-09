@@ -1,5 +1,74 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.baloon{
+  margin: 0 auto;
+  width: 500px;
+  padding: 20px;
+  border:5px solid #222;
+  border-radius: 30px;
+  position: relative;
+}
 
+.baloon:before{
+  border-top-color: #222;
+  left: 30px;
+  bottom: -45px;
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border-top-style: solid;
+  border-top-width: 20px;
+  border-right-style: solid;
+  border-right-width: 20px;
+  border-right-color: transparent;
+  border-bottom-style: solid;
+  border-bottom-width: 20px;
+  border-bottom-color: transparent;
+  border-left-style: solid;
+  border-left-width: 20px;
+  border-left-color: transparent;
+}
+
+.baloon:after{
+  bottom: -38px;
+  left: 30px;
+  border-top-color: #fff;
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border-top-style: solid;
+  border-top-width: 20px;
+  border-right-style: solid;
+  border-right-width: 20px;
+  border-right-color: transparent;
+  border-bottom-style: solid;
+  border-bottom-width: 20px;
+  border-bottom-color: transparent;
+  border-left-style: solid;
+  border-left-width: 20px;
+  border-left-color: transparent;
+}
+/*
+.baloon:before .baloon:after{
+  position: absolute;
+  content: "";
+  border:20px solid transparent;
+  width: 0;
+  height: 0;
+  border-top-color: transparent;
+  border-top-style: solid;
+  border-top-width: 20px;
+  border-right-style: solid;
+  border-right-width: 20px;
+  border-right-color: transparent;
+  border-bottom-style: solid;
+  border-bottom-width: 20px;
+  border-bottom-color: transparent;
+  border-left-style: solid;
+  border-left-width: 20px;
+  border-left-color: transparent;
+}*/
 /* 回答はここに書いてね */
