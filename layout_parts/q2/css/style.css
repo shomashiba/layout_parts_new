@@ -21,12 +21,12 @@
   word-break: break-all;
 }
 
-.image1{
+.image_husen{
   float: left;
   margin: 0 20px 10px 0;
 }
 
-.image2{
+.image_light{
   float: right;
   margin: 0 0 10px 20px;
 }

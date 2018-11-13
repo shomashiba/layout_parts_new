@@ -11,45 +11,29 @@
 }
 
 .baloon:before{
-  border-top-color: #222;
   left: 30px;
   bottom: -45px;
   position: absolute;
   content: "";
   width: 0;
   height: 0;
-  border-top-style: solid;
-  border-top-width: 20px;
-  border-right-style: solid;
-  border-right-width: 20px;
-  border-right-color: transparent;
-  border-bottom-style: solid;
-  border-bottom-width: 20px;
-  border-bottom-color: transparent;
-  border-left-style: solid;
-  border-left-width: 20px;
-  border-left-color: transparent;
+  border-style: solid;
+  border-width: 20px;
+  border-color: transparent;
+  border-top-color: #222;
 }
 
 .baloon:after{
   bottom: -38px;
   left: 30px;
-  border-top-color: #fff;
   position: absolute;
   content: "";
   width: 0;
   height: 0;
-  border-top-style: solid;
-  border-top-width: 20px;
-  border-right-style: solid;
-  border-right-width: 20px;
-  border-right-color: transparent;
-  border-bottom-style: solid;
-  border-bottom-width: 20px;
-  border-bottom-color: transparent;
-  border-left-style: solid;
-  border-left-width: 20px;
-  border-left-color: transparent;
+  border-style: solid;
+  border-width: 20px;
+  border-color: transparent;
+  border-top-color: #fff;
 }
 /*
 .baloon:before .baloon:after{

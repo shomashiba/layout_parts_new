@@ -1,39 +1,40 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-table{
+.dish{
   table-layout: fixed;
   width: 100%;
   text-align: center;
 }
 
-table th,table td{
+.dish th,.dish td{
   border: solid #dedede 1px;
   padding: 10px 0;
 }
 
-table th{
+.dish th{
   color: #ffffff;
   background-color: #2244aa;
   font-size: 18px;
   line-height: 26px;
 }
 
-table td{
+.dish td{
   font-size: 16px;
   line-height: 22px;
 }
 
-table tr:nth-child(odd){
+.dish tr:nth-child(odd){
   background-color: #ecf1f2;
 }
 
+/*
 table td:first-child{
   background-color: #2244aa;
   color: #ffffff;
 }
-
-table tr:last-child{
+ */
+.dish tr:last-child{
   border-top: dashed #000 2px;
 }
 /* 回答はここに書いてね */

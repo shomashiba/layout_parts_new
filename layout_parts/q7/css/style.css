@@ -7,14 +7,11 @@
   clear: both;
 }
 
-.lfloat{
-  width: 205px;
-  float: left;
-  font-size: 16px;
+.float:first-child{
   margin-right: 50px;
 }
 
-.rfloat{
+.float{
   width: 205px;
   float: left;
   font-size: 16px;
@@ -27,38 +24,31 @@
   table-layout: fixed;
 }
 
-.ltable{
-  display: table-cell;
-  vertical-align: middle;
-}
-.ltable-text{
-  font-size: 16px;
-  width: 205px;
-}
-
-.rtable{
+.cell{
   display: table-cell;
   vertical-align: middle;
   padding-left: 25px;
 }
-.rtable-text{
+.table-text{
   font-size: 16px;
   width: 205px;
 }
+
+.cell:first-child{
+  padding-left: 0px;
+}
+
 
 
 .inline{
+  font-size: 0;
 }
 
-.inline .l-inline{
-  width: 205px;
-  font-size: 16px;
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 45px;
+.inline .q7__box:first-child{
+  margin-right: 50px;
 }
 
-.inline .r-inline{
+.inline .q7__box{
   width: 205px;
   font-size: 16px;
   display: inline-block;
@@ -71,32 +61,31 @@
   align-items: flex-end;
 }
 
-.l-flexbox{
-  width: 205px;
-  font-size: 16px;
-}
-
-.r-flexbox{
+.flexbox .q7__box{
   width: 205px;
   font-size: 16px;
 }
 
 .lastbox{
+  font-size: 0;
+  width: 100px;
 }
 
 .lastbox .l-kotei{
   width: 300px;
-  font-size: 16px;
   display: inline-block;
-  margin-right: 50px;
   vertical-align: top;
 }
 
 .lastbox .r-kahen{
-  width: 60%;
-  font-size: 16px;
+  width: 100%;
   display: inline-block;
-  margin-right: -10%;
+  margin-left: -300px;
+  padding-left: 350px;
+  box-sizing: border-box;
 }
 
+.q7__box__text{
+  font-size: 16px;
+}
 /* 回答はここに書いてね */

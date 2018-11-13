@@ -3,8 +3,8 @@
 /* 回答はここに書いてね */
 .container{
   display: table;
-  width: auto;
-  margin-top:40px;
+  width: 100%;
+  margin-top:20px;
 }
 
 .container:first-child{
@@ -16,50 +16,38 @@
   width: auto;
 }
 
+.bar{
+  display: table-cell;
+  padding: 20px;
+  text-align: center;
+}
+
 .cell_ora{
   background-color: #fdc8b8;
-  min-width: 100px;
-  display: table-cell;
-  padding: 20px 0;
-  text-align: center;
+  width: 100px;
 }
 
 .cell_pin{
   background-color: #e0abd9;
-  width:100%;
-  display: table-cell;
-  padding: 20px 0;
-  text-align: center;
+  /*width:100%;*/
 }
 .cell_ble{
   background-color: #b6d8ed;
-  min-width: 100px;
-  display: table-cell;
-  padding: 20px 0;
-  text-align: center;
+  width: 100px;
 }
 
 .cell_yel{
   background-color: #e5d32e;
-  width: 50%;
-  display: table-cell;
-  padding: 20px 0;
-  text-align: center;
+  /*width: 50%;*/
 }
 
 .cell_red{
   background-color: #ec8f9a;
-  width: 50%;
-  display: table-cell;
-  padding: 20px 0;
-  text-align: center;
+  /*width: 50%;*/
 }
 
 .cell_gre{
   background-color: #8fdcad;
-  min-width: 500px;
-  display: table-cell;
-  padding: 20px 0;
-  text-align: center;
+  width: 500px;
 }
 /* 回答はここに書いてね */
